@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Journée Portes Ouvertes - Top Excellence : Découvrez nos formations innovantes en informatique et technologies">
+    <title>Journée Portes Ouvertes - Top Excellence</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="Script.js"></script>
+</head>
+<body>
+    <!-- Animated background particles -->
+    <div class="particles">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <!-- Bandeau d'urgence -->
+    <div class="urgent-banner">
+        <p>⚠️ Dernières places disponibles pour les ateliers pratiques !</p>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="main-nav" id="accueil">
+        <a href="#accueil" class="logo">
+            <img src="images/logo.png" alt="Logo Top Excellence">
+        </a>
+        <div class="nav-links">
+            <a href="#programme"><i class="fas fa-calendar-alt"></i> Programme</a>
+            <a href="#formations"><i class="fas fa-laptop-code"></i> Formations</a>
+            <a href="#contact"><i class="fas fa-map-marker-alt"></i> Contact</a>
+        </div>
+    </nav>
+
+    <!-- Section Héro -->
+    <header class="hero-section">
+        <div class="hero-content">
+            <h1>Journée Portes Ouvertes <span>2024</span></h1>
+            <div class="hero-highlights">
+                <div class="highlight-card">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <p>10 Ateliers Pratiques</p>
+                </div>
+                <div class="highlight-card">
+                    <i class="fas fa-handshake"></i>
+                    <p>Rencontrez nos Experts</p>
+                </div>
+                <div class="highlight-card">
+                    <i class="fas fa-gift"></i>
+                    <p>Cadeaux de Bienvenue</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Compte à rebours -->
+    <section class="countdown-section">
+        <h2>Prochaine JPO dans :</h2>
+        <div class="countdown">
+            <div class="countdown-item">
+                <div id="days" class="countdown-number">00</div>
+                <div class="countdown-label">Jours</div>
+            </div>
+            <div class="countdown-item">
+                <div id="hours" class="countdown-number">00</div>
+                <div class="countdown-label">Heures</div>
+            </div>
+            <div class="countdown-item">
+                <div id="minutes" class="countdown-number">00</div>
+                <div class="countdown-label">Minutes</div>
+            </div>
+            <div class="countdown-item">
+                <div id="seconds" class="countdown-number">00</div>
+                <div class="countdown-label">Secondes</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programme de la journée -->
+    <section id="programme" class="schedule-section">
+        <h2>Déroulé de la Journée</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-time">9h00 - 9h30</div>
+                <div class="timeline-content">
+                    <h3>Accueil Café</h3>
+                    <p>Présentation générale de l'établissement</p>
+                    <i class="fas fa-coffee"></i>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-time">10h00 - 12h30</div>
+                <div class="timeline-content">
+                    <h3>Ateliers Découverte</h3>
+                    <ul>
+                        <li>Algorithmes & Structures de Données</li>
+                        <li>Office et LaTeX</li>
+                        <li>UI/UX Design</li>
+                    </ul>
+                    <i class="fas fa-cogs"></i>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-time">12h30 - 14h00</div>
+                <div class="timeline-content">
+                    <h3>Pause Déjeuner & Questions / Réponses</h3>
+                    <i class="fas fa-utensils"></i>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-time">14h00 - 16h00</div>
+                <div class="timeline-content">
+                    <h3>Sessions d'Information Détaillées</h3>
+                    <ul>
+                        <li>Focus sur le Développement Web Complet</li>
+                        <li>Plongée dans l'univers de l'IA</li>
+                        <li>DevOps & Automatisation</li>
+                    </ul>
+                    <i class="fas fa-info-circle"></i>
+                </div>
+            </div>
+             <div class="timeline-item">
+                <div class="timeline-time">16h00 - 17h00</div>
+                <div class="timeline-content">
+                    <h3>Questions / Réponses & Inscriptions</h3>
+                    <p>Finalisez votre projet de formation avec nos conseillers.</p>
+                    <i class="fas fa-question-circle"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galerie des formations -->
+    <section id="formations" class="formations-section">
+        <h2>Découvrez nos Formations Stars</h2>
+        <div class="formation-grid">
+            <!-- Carte 1: IA avec Python -->
+            <article class="formation-card">
+                <div class="card-header">
+                    <img src="images/ia avec python.png" alt="Formation Intelligence Artificielle avec Python">
+                    <div class="formation-tag">Nouveauté 2025</div>
+                </div>
+                <div class="card-body">
+                    <h3>IA avec Python</h3>
+                    <p>Plongez dans le Machine Learning, Deep Learning et NLP avec le langage Python.</p>
+                    <div class="formation-details">
+                        <p><i class="fas fa-clock"></i> Durée à préciser</p>
+                        <p><i class="fas fa-certificate"></i> Certification Pro</p>
+                    </div>
+                    <a href="formation_ia_python.html" class="btn-formation">Voir le programme</a>
+                </div>
+            </article>
+
+            <!-- Carte 2: Développement Web Complet -->
+            <article class="formation-card">
+                <div class="card-header">
+                    <img src="images/Développement Web Complet.jpg" alt="Formation Développement Web Complet">
+                    <!-- <div class="formation-tag">Populaire</div> -->
+                </div>
+                <div class="card-body">
+                    <h3>Développement Web Complet</h3>
+                    <p>Devenez un expert Full Stack : maîtrisez le front-end, back-end, bases de données, APIs et tests.</p>
+                    <div class="formation-details">
+                        <p><i class="fas fa-clock"></i> Durée à préciser</p>
+                        <p><i class="fas fa-certificate"></i> Titre RNCP</p>
+                    </div>
+                    <a href="formation_developpement_web_complet.html" class="btn-formation">Voir le programme</a>
+                </div>
+            </article>
+
+            <!-- Carte 3: Algorithmes & Structures de Données  -->
+            <article class="formation-card">
+                <div class="card-header">
+                    <!-- You'll need to provide an appropriate image for this new topic -->
+                    <img src="images/algorithmes_structures_donnees.jpeg" alt="Formation Algorithmes & Structures de Données">
+                </div>
+                <div class="card-body">
+                    <h3>Algorithmes & Structures de Données</h3>
+                    <p>Maîtrisez les fondations de la programmation efficace et optimisée.</p>
+                    <div class="formation-details">
+                        <p><i class="fas fa-clock"></i> Durée à préciser</p>
+                        <p><i class="fas fa-certificate"></i> Attestation de suivi</p>
+                    </div>
+                    <!-- Update the link to the correct page for this formation -->
+                    <a href="formation_algorithmes_structures_donnees.html" class="btn-formation">Voir le programme</a>
+                </div>
+            </article>
+
+            <article class="formation-card">
+                <div class="card-header">
+                    <img src="images/uiux.jpeg" alt="Formation UI/UX Design">
+                     <div class="formation-tag">Très demandé</div>
+                </div>
+                <div class="card-body">
+                    <h3>UI/UX Design</h3>
+                    <p>Concevez des interfaces intuitives et des expériences mémorables avec Figma et Adobe XD.</p>
+                    <div class="formation-details">
+                        <p><i class="fas fa-clock"></i> Durée à préciser</p>
+                        <p><i class="fas fa-certificate"></i> Portfolio Projets</p>
+                    </div>
+                    <a href="formation_ui_ux_design.html" class="btn-formation">Voir le programme</a>
+                </div>
+            </article>
+
+
+
+            <article class="formation-card">
+                <div class="card-header">
+                    <!-- You'll need to provide an appropriate image for this new topic -->
+                    <img src="images/doctorat_recherche.jpeg" alt="Doctorat et Recherche en Informatique">
+                </div>
+                <div class="card-body">
+                    <h3>Doctorat et Recherche</h3>
+                    <p>Contribuez à l'avancement des connaissances en informatique et technologies de pointe.</p>
+                    <div class="formation-details">
+                        <p><i class="fas fa-clock"></i> Durée à précise </p>
+                        <p><i class="fas fa-certificate"></i> Publication d'article</p>
+                    </div>
+                    <!-- Update the link to the correct page for this formation -->
+                    <a href="programme_doctorat_recherche.html" class="btn-formation">En savoir plus</a>
+                </div>
+            </article>
+
+              
+
+                     <!-- Carte 6: Formation à la Demande  -->
+            <article class="formation-card">
+                <div class="card-header">
+                    <!-- You'll need to provide an appropriate image for this new topic -->
+                    <img src="images/formation_a_la_demande.jpeg" alt="Formation à la Demande - Personnalisée">
+                    <!-- You might want to remove or change the tag for this type of offering -->
+                    <!-- <div class="formation-tag">Sur Mesure</div> -->
+                </div>
+                <div class="card-body">
+                    <h3>Formation à la Demande</h3>
+                    <p>Bénéficiez d'un programme sur mesure sur des technologies comme PowerBI, Linux, Git, et bien d'autres.</p>
+                    <div class="formation-details">
+                        <p><i class="fas fa-clock"></i> Durée flexible</p>
+                        <p><i class="fas fa-certificate"></i> Contenu personnalisé</p>
+                    </div>
+                    <!-- Update the link to the correct page for this formation -->
+                    <a href="" class="btn-formation">Discutons de vos besoins</a>
+                </div>
+            </article>
+            
+            
+        </div>
+    </section>
+    <!-- Formulaire d'inscription / Lien vers Google Forms -->
+    <section id="contact" class="registration-section">
+        <div class="registration-form">
+            <h2>Réservez Votre Place</h2>
+            <p style="color: white; margin-bottom: 1.5rem; text-align: center; font-size: 1.1rem; line-height: 1.6;">
+                Pour faciliter votre inscription à notre Journée Portes Ouvertes, nous utilisons Google Forms.
+                Cliquez sur le bouton ci-dessous pour accéder au formulaire sécurisé et confirmer votre participation.
+            </p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfcwtBNLMiBJguhCbL9wfl17Wsh6gbpEGRbwK7gdQe7RjgZJw/viewform?usp=dialog"
+               target="_blank" rel="noopener noreferrer"
+               class="submit-btn"
+               style="text-decoration: none; display: block; margin: 0 auto; max-width: 300px;">
+                M'inscrire à la JPO <i class="fas fa-external-link-alt" style="margin-left: 0.5rem;"></i>
+            </a>
+            <p style="color: rgba(255,255,255,0.7); margin-top: 1rem; text-align: center; font-size: 0.9rem;">
+                Vous serez redirigé vers une page Google Forms.
+            </p>
+        </div>
+        <div class="location-info">
+            <h3>Où nous trouver ?</h3>
+            <div class="map-wrapper">
+                <!-- IMPORTANT: Remplacez "..." par le vrai lien embed de Google Maps -->
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3196.626437566546!2d5.0796563!3d36.7555368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12f2cd72e89f2c23%3A0x2bbaaf510707ff2b!2sInstitut%20Top%20Excellence!5e0!3m2!1sfr!2sdz!4v1748281946077!5m2!1sfr!2sdz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Carte de localisation de Top Excellence"></iframe>
+            </div>
+            <div class="contact-info">
+                <p><i class="fas fa-phone"></i> <a href="tel:+213 770 86 56 34">0770 86 56 34</a></p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:contact@groupetopexcellence.com">contact@groupetopexcellence.com</a></p>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-column">
+            <h4>Top Excellence</h4>
+        </div>
+        <div class="footer-column">
+            <h4>Réseaux Sociaux</h4>
+            <div class="social-links">
+                <a href="#" aria-label="LinkedIn Top Excellence"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="Twitter Top Excellence"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Instagram Top Excellence"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="Facebook Top Excellence"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+        <div class="footer-column">
+            <h4>Newsletter</h4>
+            <form class="newsletter-form" id="newsletterForm">
+                <label for="newsletterEmail" class="sr-only">Votre email pour la newsletter</label>
+                <input type="email" id="newsletterEmail" name="newsletterEmail" placeholder="Votre email" required>
+                <button type="submit">S'abonner</button>
+            </form>
+        </div>
+        <div class="footer-copyright">
+            <p>© <span id="currentYear">2024</span> Top Excellence. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- Bouton retour en haut -->
+    <button id="backToTop" class="back-to-top" title="Retour en haut de la page">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script>
+        // Script pour l'année dynamique dans le footer
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
