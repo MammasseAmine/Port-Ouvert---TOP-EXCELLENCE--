@@ -89,61 +89,62 @@
     <section id="programme" class="schedule-section">
         <h2>Déroulé de la Journée</h2>
         <div class="timeline">
+            <!-- Session du Matin : 9h00 - 12h00 -->
             <div class="timeline-item">
-                <div class="timeline-time">9h00 - 9h30</div>
+                <div class="timeline-time">09h00 - 12h00</div>
                 <div class="timeline-content">
-                    <h3>Accueil Café</h3>
-                    <p>Présentation générale de l'établissement</p>
-                    <i class="fas fa-coffee"></i>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-time">10h00 - 12h30</div>
-                <div class="timeline-content">
-                    <h3>Ateliers Découverte</h3>
+                    <h3>Matinée Découverte & Ateliers</h3>
+                    <p>Accueil autour d'un café, présentation de l'école, suivi de nos ateliers pratiques :</p>
                     <ul>
                         <li>Algorithmes & Structures de Données</li>
-                        <li>Office et LaTeX</li>
-                        <li>UI/UX Design</li>
+                        <li>Bureautique Professionnelle (Office & LaTeX)</li>
+                        <li>Plongée dans l'univers de l'IA</li>
                     </ul>
                     <i class="fas fa-cogs"></i>
                 </div>
             </div>
-            <div class="timeline-item">
-                <div class="timeline-time">12h30 - 14h00</div>
-                <div class="timeline-content">
-                    <h3>Pause Déjeuner & Questions / Réponses</h3>
-                     <li><strong>Bonus :</strong> Session Spéciale pour les Soutenances et Projets de Fin de Cycle</li>
-                    <ul>
 
-                    </ul>
+            <!-- Pause Déjeuner : 12h00 - 12h30 -->
+            <div class="timeline-item">
+                <div class="timeline-time">12h00 - 12h30</div>
+                <div class="timeline-content">
+                    <h3>Pause Déjeuner</h3>
+                    <p>Un moment convivial pour échanger avec nos formateurs et les autres participants.</p>
                     <i class="fas fa-utensils"></i>
                 </div>
             </div>
+
+            <!-- Session Bonus : 12h30 - 13h00 -->
             <div class="timeline-item">
-                <div class="timeline-time">14h00 - 16h00</div>
+                <div class="timeline-time">12h30 - 13h00</div>
                 <div class="timeline-content">
-                    <h3>Sessions d'Information Détaillées</h3>
+                    <h3>Bonus : Session Spéciale</h3>
+                    <p>Focus sur la préparation des Soutenances et la gestion des Projets de Fin de Cycle.</p>
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+            </div>
+            
+            <!-- Session de l'Après-midi : 13h00 - 14h30 -->
+            <div class="timeline-item">
+                <div class="timeline-time">13h00 - 14h30</div>
+                <div class="timeline-content">
+                    <h3>Sessions d'Information & Inscriptions</h3>
+                    <p>Plongez au cœur de nos formations phares et posez toutes vos questions :</p>
                     <ul>
+                        <li>Initiation au Design UI/UX</li>
                         <li>Focus sur le Développement Web Complet</li>
-                        <li>Plongée dans l'univers de l'IA</li>
-                        <li>DevOps & Automatisation</li>
+                        <li>DevOps & Automatisation</li> 
+                        <li>Finalisez votre projet de formation avec nos conseillers</li>
                     </ul>
                     <i class="fas fa-info-circle"></i>
                 </div>
             </div>
-             <div class="timeline-item">
-                <div class="timeline-time">16h00 - 17h00</div>
-                <div class="timeline-content">
-                    <h3>Questions / Réponses & Inscriptions</h3>
-                    <p>Finalisez votre projet de formation avec nos conseillers.</p>
-                    <i class="fas fa-question-circle"></i>
-                </div>
-            </div>
+
         </div>
     </section>
 
-    <!-- Galerie des formations -->
+        </div>
+    </section>    <!-- Galerie des formations -->
     <section id="formations" class="formations-section">
         <h2>Découvrez nos Formations Stars</h2>
         <div class="formation-grid">
@@ -290,27 +291,27 @@
         </div>
     </section>
     <!-- Footer -->
-    <footer class="main-footer">
+            <footer class="main-footer">
+        <!-- Column 1: About Top Excellence -->
         <div class="footer-column">
-            <h4>Top Excellence</h4>
+            <img src="Images/logo.png" alt="Logo Top Excellence" class="footer-about-logo">
+            <p class="footer-about-text">
+                Institut TOP EXCELLENCE, de développement et de la promotion de la formation continue, agréé par le ministère de la formation et de l'enseignement professionnel, né d’une véritable passion pour assurer diverses formations et vous aider à donner un nouveau souffle pour votre entreprise.
+            </p>
         </div>
+
+        <!-- Column 2: Social Media -->
         <div class="footer-column">
             <h4>Réseaux Sociaux</h4>
             <div class="social-links">
                 <a href="#" aria-label="LinkedIn Top Excellence"><i class="fab fa-linkedin"></i></a>
                 <a href="#" aria-label="Twitter Top Excellence"><i class="fab fa-twitter"></i></a>
                 <a href="#" aria-label="Instagram Top Excellence"><i class="fab fa-instagram"></i></a>
-                <a href="#" aria-label="Facebook Top Excellence"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.facebook.com/GroupeTopExcellence" aria-label="Facebook Top Excellence"><i class="fab fa-facebook"></i></a>
             </div>
         </div>
-        <div class="footer-column">
-            <h4>Newsletter</h4>
-            <form class="newsletter-form" id="newsletterForm">
-                <label for="newsletterEmail" class="sr-only">Votre email pour la newsletter</label>
-                <input type="email" id="newsletterEmail" name="newsletterEmail" placeholder="Votre email" required>
-                <button type="submit">S'abonner</button>
-            </form>
-        </div>
+
+        <!-- Copyright section at the bottom -->
         <div class="footer-copyright">
             <p>© <span id="currentYear">2024</span> Top Excellence. Tous droits réservés.</p>
         </div>
